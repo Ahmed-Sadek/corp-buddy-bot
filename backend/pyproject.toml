@@ -1,0 +1,36 @@
+[project]
+name = "backend"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    # --- Backend ---
+    "fastapi",
+    "uvicorn[standard]",
+    # --- Frontend ---
+    "streamlit",
+    "requests",
+    # --- RAG pipeline ---
+    "langchain",
+    "langchain-community",
+    "langchain-text-splitters",
+    "chromadb==1.0.9",
+    "sentence-transformers",
+    # --- Document loaders ---
+    "pypdf",
+    "python-docx",
+    "markdown",
+    # --- LLM provider ---
+    "openai>=1.30.0",
+    # --- Utility ---
+    "tiktoken", # optional, helps with token counting
+    "langchain-huggingface>=0.3.1",
+    "langchain-chroma==0.2.4",
+    "python-dotenv>=1.1.1",
+    "python-multipart>=0.0.20",
+    # --- Development ---
+    "pytest==7.4.3",
+    "httpx==0.27.0",
+    "passlib>=1.7.4",
+]
