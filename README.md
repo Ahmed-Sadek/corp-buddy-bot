@@ -114,8 +114,8 @@ For production deployment, integrate with:
 1. **Clone the repository**
 
    ```bash
-   git clone <repository-url>
-   cd buddy-chatbot
+   git clone https://github.com/Ahmed-Sadek/corp-buddy-bot.git
+   cd corp-buddy-bot
    ```
 
 2. **Install dependencies**
