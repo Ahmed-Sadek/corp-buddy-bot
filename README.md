@@ -133,7 +133,7 @@ For production deployment, integrate with:
 4. **Open in browser**
 
    ```
-   http://localhost:8080
+   http://localhost:8081
    ```
 
 ## 📱 Usage Guide
