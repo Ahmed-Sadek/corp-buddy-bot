@@ -33,6 +33,7 @@ def seed_demo_user(db: Session):
     demo_users = [
         ("ahmed.elsadek@linkdev.com", "staff"),
         ("manager@linkdev.com", "manager"),
+        ("employee@linkdev.com", "employee"),
         ("staff@linkdev.com", "staff"),
     ]
     for email, role in demo_users:
