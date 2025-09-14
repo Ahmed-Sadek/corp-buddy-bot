@@ -136,6 +136,16 @@ For production deployment, integrate with:
    http://localhost:8081
    ```
 
+5. **For Demo prepuses**
+
+   ```
+   email                 role
+   employee@linkdev.com  employee
+   manager@linkdev.com   manager
+   
+   password: 123456789
+   ```
+
 ## 📱 Usage Guide
 
 ### For Employees
